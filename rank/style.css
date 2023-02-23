@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #eee;
+  }
+  
+  td.score {
+    width: 50px;
+  }
+  
+  td.remark {
+    width: 100px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
